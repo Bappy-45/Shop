@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    width: 80px;
+    background-color: green;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+}
+.btn{
+    background-color: green;
+}
+@media (max-width:768px){
+.main{
+    width: 50px;
+}
+    
+}

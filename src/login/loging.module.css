@@ -1,0 +1,86 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.btn button{
+    border: none;
+    outline: none;
+    padding: 6px 20px;
+    color: rgb(90, 99, 74);
+    background-color: #b68d09;
+}  
+
+
+.imgdiv img{
+    
+    text-align: center;
+    margin-top: 45px;
+    position: relative;
+}
+.input{
+    margin-top: 120px;
+    width: 350px;
+    height: 450px;
+    background-color: #ebe4e4;
+    border-radius: 0.5rem;
+    
+}
+.icon{
+    font-size: 80px;
+    margin-top: 70px;
+    margin-left: 140px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.inputfild{
+    margin-bottom: 0.7rem;
+   
+}
+.inputfild input{
+    padding: 7px 46px;
+    outline: none;
+    border: none;
+    background-color: #eee;
+}
+.btn{
+    padding: 7px 114px;
+    outline: none;
+    border: none;
+    background-color: orange;
+}
+.btn:hover{
+    background-color: rgb(179, 117, 3);
+}
+
+.signin{
+   margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.border{
+    width: 80px;
+    height: 2px;
+    background-color: rgb(211, 193, 193);
+    margin-top: 12px;
+}
+.WITH{
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginIcons{
+    display: flex;
+    margin-left: 130px;
+}
+
+.logins{
+   
+    font-size: 30px;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 50px;
+    margin: 2px;
+    cursor: pointer;
+}

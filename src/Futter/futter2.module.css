@@ -1,0 +1,55 @@
+.h1{
+    text-align: center;
+}
+.p{
+    text-align: center;
+    margin-top: -12px;
+}
+.p1{
+    text-align: center;
+    margin-top: -18px;
+}
+.setchinput{
+    
+    border: none;
+    padding: 4px 15px;
+    background: #f7f6f6;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    margin-left: 29px;
+}
+.btn{
+    padding: 4px 12px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    margin-left: 27px;
+}
+.ul{
+    text-align: center;
+}
+.ul li{
+    display: inline;
+    margin: 20px;  
+}
+.icon{
+    font-size: 40px;
+    color: #fff;
+    margin: -75px;
+}
+@media (max-width:767px){
+    .setchinput{
+        
+        width: 68%;
+    }
+    .btn{
+        margin-top: -30px;
+        padding: 4px 10px;
+        float: right;
+        
+    }
+   
+    
+}

@@ -1,0 +1,66 @@
+.container{
+    width: 15rem;
+    height: 25rem;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin: 2rem;
+    
+}
+.imgdiv{
+    text-align: center;
+    position: relative;
+}
+.imgdiv img{
+        width: 200px;  
+}
+.title{
+    text-align: center;
+}
+.title span{
+        color: rgb(156, 149, 139);
+}
+.carepricesection{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.icon button{
+    border: none;
+    background-color: #fff ;
+    outline: none;
+}
+.icon button:hover{
+    color: skyblue;
+}
+.count{
+    font-weight: bold;
+}
+
+
+@media (max-width:992px){
+    .container{
+       margin-left: 90px;
+
+    width: 10rem;
+    height: 25rem;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin: 1.7rem;
+    }
+    .imgdiv img{
+        width: 120px;
+    }
+}
+@media (max-width:768px){
+    .container{
+    margin: 1.7rem;
+    }
+    .imgdiv img{
+        width: 120px;
+    }
+}
